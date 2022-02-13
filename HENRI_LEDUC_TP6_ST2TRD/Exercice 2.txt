@@ -1,0 +1,33 @@
+Exercice 2 :
+
+
+1. In simple terms, and a few sentences at most, what’s a design pattern?
+Design patern are clean and optimal solutions to common programming problem. 
+They serve as blueprint that can be customized and implemented in programming project. 
+As some of them are very well known among programmers it easy very to read code based on them
+a. When should you use one?
+You should use one if it evidently address the problem you are facing, 
+or you should refer to it if you are stuggling with you're current solution.
+
+b. When shouldn’t you?
+We should avoid to uses them by default. 
+It can be ineficient to tailer our project to make sure it fit in a design patern.
+
+
+2. Write a small program that build a pizza with various toppings using the builder
+pattern. Why is this a good idea? Think about scalability for instance
+The code is very clean, efficient and easy to read. 
+It is very easy to add new method and to customize our pizza as we want.
+
+3. Find an original idea to implement a decorator pattern (not the one from the website).
+Can you think of any limitations? No need to code here.
+We could use Decorator pattern to customize a car.
+The car could have different accesories thar are added in a specific order.
+The limitation is that if we declare each wrapper after the others 
+it could be impossible to don't have some features on the car.
+
+
+4. Write a small program to implement the behavioral design pattern of your choice.
+Once again, do not use the example given by the website, but feel free to use them as
+guidance.
+I choosed the Template Method design patern to create the beginning of a Baseball Team.

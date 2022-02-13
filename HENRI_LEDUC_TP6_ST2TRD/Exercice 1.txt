@@ -1,0 +1,24 @@
+Exercice 1: 
+
+1. What is clean code? What is the role played by refactoring one’s code?
+A clean code is a code that very easily understable for new users. it is efficient and easy to edit and maintain . 
+It should be the duty and goal of every proffesional programmer. Refactoring one's code is reworking it to make it clean.
+
+2. Do you think you can “over-refactor” and do too much? How?
+In extrem case any code can be over simplified, it all depend of the meaning of "simple" of the coder.
+For exemple a programmer can assess that a program running in one line is the most simple, 
+But in reality it will surely be a complete mess.
+Standard and design patern are there to avoid such extreme case.
+
+3. What is a code smell? Why should you bother?
+Code smells are common indicator that the code is not clean. 
+They must not be overlooked because they often hide other deep problem in the program.
+
+4. Can you identify a few code smells in the original GuildedRose?
+In the original GuildedRose there was a drastic readability problem due to the absurdly long "if" chain. 
+The update method was far too long with many repeted lines. 
+
+5. What are some refactoring techniques you could have used in the GuildedRose?
+"Moving Features between Objects" could have been used to handle "Item.cs". 
+The class was very badly designed, trying to generate very differents items. 
+Refactoring by implementing subclass was the go-to solution.
